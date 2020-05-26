@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+# ASP.NET Core (.NET Framework)
+# Build and test ASP.NET Core projects targeting the full .NET Framework.
+# Add steps that publish symbols, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+>>>>>>> 88328372875d0cfa469c5d87610128082fefc68b
 trigger:
 - '*'
 
@@ -46,6 +53,7 @@ steps:
     projects: '**/*.csproj'
 
 - task: DotNetCoreCLI@2
+<<<<<<< HEAD
   displayName: 'Install ReportGenerator'
   inputs:
     command: custom
@@ -71,6 +79,8 @@ steps:
     summaryFileLocation: '$(Build.SourcesDirectory)/**/coverage.cobertura.xml'
 
 - task: DotNetCoreCLI@2
+=======
+>>>>>>> 88328372875d0cfa469c5d87610128082fefc68b
   displayName: 'Publish the project - $(buildConfiguration)'
   inputs:
     command: 'publish'
@@ -81,4 +91,8 @@ steps:
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
+<<<<<<< HEAD
   condition: succeeded()
+=======
+  condition: succeeded()
+>>>>>>> 88328372875d0cfa469c5d87610128082fefc68b
