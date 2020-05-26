@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-[![Build Status](https://dev.azure.com/ucunurul28/Space%20Game%20-%20web%20-%20Workflow/_apis/build/status/mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/ucunurul28/Space%20Game%20-%20web%20-%20Workflow/_build/latest?definitionId=2&branchName=master)
-
-
-=======
-[![Build Status](https://dev.azure.com/ucunurul28/Space%20Game%20-%20web%20-%20Tests/_apis/build/status/mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/ucunurul28/Space%20Game%20-%20web%20-%20Tests/_build/latest?definitionId=3&branchName=master)
->>>>>>> 6d964ca3b6a80e1a5f593035d36afb10e6a11513
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
